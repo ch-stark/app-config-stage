@@ -9,7 +9,7 @@ spec:
     spec:
       containers:
       - name: reverse-words
-        image: quay.io/mavazque/tekton-reversewords:f3700f96579d33d4618fba94f2faa5da7280f509
+        image: quay.io/mavazque/tekton-reversewords:970cd84d9550435932da7c3d08ecda43143a51f5
         env:
         - name: RELEASE
           value: "Stage Release"
